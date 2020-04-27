@@ -43,8 +43,8 @@ class App extends Component {
           </p>
           <LambdaDemo />
         </header>
+        <PWAPrompt />
       </div>
-      <PWAPrompt />
     )
   }
 }
