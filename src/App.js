@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
+import PWAPrompt from 'react-ios-pwa-prompt'
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -43,6 +44,7 @@ class App extends Component {
           <LambdaDemo />
         </header>
       </div>
+      <PWAPrompt />
     )
   }
 }
