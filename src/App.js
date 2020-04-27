@@ -43,7 +43,7 @@ class App extends Component {
           </p>
           <LambdaDemo />
         </header>
-        <PWAPrompt />
+        <PWAPrompt permanentlyHideOnDismiss timesToShow='999' />
       </div>
     )
   }
